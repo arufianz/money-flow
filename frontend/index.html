@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Flow</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Money Flow</h1>
+    <p>App untuk mencatat keuangan harian Anda</p>
+
+    <p>Nominal</p>
+    <input type="number" id="input1" placeholder="Nominal">
+
+    <p>Tipe</p>
+    <select id="input2">
+        <option value="income">Masuk</option>
+        <option value="expense">Keluar</option>
+    </select>
+    <p>Keterangan</p>
+    <input type="text" id="input3">
+    <p>Tanggal</p>
+    <input type="date" id="input4">
+    <p>Waktu</p>
+    <input type="time" id="input5">
+
+    <Button onclick="Add()">Simpan</Button>
+
+    <h4>Riwayat Transaksi</h4>
+    <ul id="list">
+        
+    </ul>
+    
+</body>
+</html>
